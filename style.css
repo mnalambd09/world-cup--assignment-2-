@@ -90,6 +90,20 @@ main{
     margin: 10px;
     
 }
+.blog-content{
+    margin:15px;
+}
+.blog-content button{
+    height: 30px;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.blog-content img{
+    margin: 10px;
+    margin-bottom: -5px;
+}
 /* Blog-section end */
 /* footer start */
 .footer{
