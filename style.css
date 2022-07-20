@@ -1,0 +1,125 @@
+body{
+    margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
+    
+}
+main{
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* Header-section Start */
+.header-section{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    width:1321px ;
+    height: 646px;
+    background-color: black;
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+.header-content{
+    color: white;
+    font-size: 40-px;
+   
+}
+.header-title{
+    font-size: 70px;
+    margin-left: 50px;
+}
+.header-content p{
+    margin-left: 50px;
+}
+.header-button{
+    margin-left: 50px;
+    height: 50px;
+    background-color: red;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px ;
+}
+.header-img{
+    width: 580px;
+    height: 613px;
+}
+.header-img img{
+    width: 100%;
+}
+/* Header-section end */
+
+/* Blog-section start */
+.blogs{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    justify-content: center;
+    
+   
+}
+.side-nav{
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+    background-color: black;
+    grid-row: 1/4;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 10px;
+   
+}
+.nav-button{
+  
+}
+.nav-button button{
+    width: 240px;
+    height: 70px;
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-top: 18px;
+    border-radius: 10px;
+    
+}
+.blog{
+    width: 312px;
+    height: 362px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+/* Blog-section end */
+/* footer start */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section{
+    margin-top: 100px;
+    padding-top: 100px;
+    width: 1600px;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+.footer-section h1{
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+hr{
+    width: 80%;
+    color: gray;
+}
+/* footer end */
