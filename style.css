@@ -94,9 +94,6 @@ main{
     margin: 10px;
     
 }
-.event{
-    margin: 10px;
-}
 .blog-1{
     display: grid;
     width:280px ;
@@ -107,8 +104,23 @@ main{
     align-items: center;
     margin-bottom: 20px;
 }
+.blog-img-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+span{
+    font-size: 20px;
+}
 .blog-content{
     margin:15px;
+
+}
+.blog-content-1{
+    margin:15px;
+    margin-top:-70px
 }
 .blog-content button{
     height: 30px;
