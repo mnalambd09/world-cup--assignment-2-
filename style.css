@@ -12,7 +12,6 @@ main{
 .header-section{
     display: grid;
     justify-content: center;
-    
     grid-template-columns: repeat(2, 1fr);
     width:100% ;
     height: 646px;
@@ -41,6 +40,10 @@ main{
     border-radius: 10px;
     color: white;
     font-size: 20px ;
+    transition: width 1s ease-in-out, height 1s, transform 1s;
+}
+.header-button:hover{
+    transform: scale(1.4);
 }
 .header-img{
     width: 100%;
@@ -57,8 +60,11 @@ main{
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     justify-content: center;
-    
-   
+}
+.blog-btn{
+    background-color: red;
+    color: white;
+    font-weight: 700;
 }
 .side-nav{
     width: 300px;
@@ -69,12 +75,6 @@ main{
     align-items: center;
     border-radius: 10px;
     margin-top: 10px;
-   
-}
-.blog-btn{
-    background-color: red;
-    color: white;
-    font-weight: 700;
 }
 .nav-button button{
     width: 240px;
@@ -164,6 +164,20 @@ span{
 hr{
     width: 80%;
 }
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social-icon i{
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+}
+.blog-btn-collups{
+    display: none;
+}
 /* footer end */
 /* responsive start */
 @media (max-width:576px) {
@@ -198,7 +212,68 @@ hr{
         
     }
     .footer-section{
-        height: 500px;
+        height: 600px;
+    }
+    .blog-btn-collups{
+        display: none;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .header-section{
+        height: 600px;
+    }
+    .header-content h1{
+        width: 80%;
+        height: 200px;
+        font-size: 40px;
+    }
+    .header-img img{
+        width: 85%;
+       margin-top: 200px;
+       margin-left: 50px;
+    }
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
+        margin: auto;
+    }
+   
+    .side-nav{
+        position:absolute;
+        margin-top: -80px;
+       width: 750px;
+       height: 100px;
+       background-color: white;
+       border: none;
+       
+    }
+    .nav-button button{
+        display: inline;
+        align-items: center;
+        flex-direction: row;
+        width: 170px;
+        height: 50px;
+        margin-left: 30px;
+    }
+    #res-1{
+        display: none;
+    }
+    #res-2{
+        display: none;
+    }
+    #res-3{
+        display: none;
+    }
+    .blog-btn-collups{
+        display: block;
+        width: 240px;
+        font-size: 20px;
+        margin: 10px auto;
+        margin-top: 30px;
+        border-radius: 10px;
+        background-color: red;
+        height: 70px;
+        color: white;
     }
 }
 /* responsive end */
